@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  model:
+    build: .
+    container_name: gse252145_model
+    ports:
+      - "8050:8050"
+    volumes:
+      - .:/model
