@@ -33,7 +33,7 @@ label_names = {
 # Utilize the PCA algorithm to reduce the dimensionality of the data
 pca = PCA(n_components=31)
 reduced_data = pca.fit_transform(data)
-#print(f"Explained variance ratio: {pca.explained_variance_ratio_.sum():.2f}")
+print(f"Explained variance ratio: {pca.explained_variance_ratio_.sum():.2f}")
 
 # Split the data into training and testing sets
 data_train = reduced_data[:int(len(reduced_data) * 0.8)]
