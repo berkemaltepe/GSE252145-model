@@ -9,7 +9,7 @@ First, the data is downloaded from [the NCBI Website](https://www.ncbi.nlm.nih.g
 
 The labels (pre-treatment, post-treatment) are not included in the data itself, and is provided on the [information page](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE252145) of the GSE252145 dataset.
 
-The data had a very high number of feautures (39376) compared to the sample size (31), so to avoid overfitting I used the PCA algorithm to reduce the dimensionality of the data.
+The data had a very high number of feautures (39376) compared to the sample size (31), so to avoid overfitting I used the PCA algorithm to reduce the dimensionality of the data. The resulting explianed variance ratio is 1, which means that the dimensionality reduction captures all of the variance of the original feature set.
 
 ## Neural Net and Results
 Since the problem is a fairly linear binary classification problem, the neural architecture is very simple, consisting of three fully connected layers.
