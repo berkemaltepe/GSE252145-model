@@ -15,3 +15,16 @@ The data had a very high number of feautures (39376) compared to the sample size
 Since the problem is a fairly linear binary classification problem, the neural architecture is very simple, consisting of three fully connected layers.
 
 Since the sample size was very low, the average accuracy of the model was only around 50%, which is the same as random guessing for a binary classification problem.
+
+## Sample Results
+![sample loss plot](img/sample_loss_plot.png)
+
+![sample confusion matrix](img/sample_confusion_matrix.png)
+
+Accuracy: 28.57%
+
+Precision: 0.33
+
+Recall: 0.67
+
+F1 Score: 0.44
